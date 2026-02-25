@@ -7,7 +7,10 @@ const SiteHeader = () => {
   return (
     <header className="sticky top-0 z-50 bg-card/80 backdrop-blur-md border-b border-border">
       <div className="container-page flex items-center justify-between h-16 px-4 md:px-6">
-        <a href="/" className="font-display font-bold text-xl text-foreground tracking-tight">
+        <a
+          href="/"
+          className="font-display font-bold text-xl text-foreground tracking-tight transition-all duration-[250ms] ease-in-out hover:scale-105 hover:drop-shadow-md active:scale-[0.97] animate-fade-in"
+        >
           Com Carinho 🧸
         </a>
         <nav className="hidden md:flex items-center gap-8">
